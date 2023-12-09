@@ -8,12 +8,12 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/txt_desingBy"
+        android:id="@+id/txt_designBy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="308dp"
         android:fontFamily="casual"
-        android:text="DESİNG BY AA"
+        android:text="@string/design_by_aa"
         android:textColor="#FF022B41"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="casual"
-        android:text="Welcome to the weather app"
+        android:text="@string/welcome_message"
         android:textColor="#022B41"
         android:textSize="20sp"
         android:textStyle="bold"

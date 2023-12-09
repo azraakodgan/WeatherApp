@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="372dp"
         android:fontFamily="casual"
-        android:text="Saturday"
+        android:text="@string/day"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="casual"
-        android:text="2 December 2023"
+        android:text="@string/date"
         android:textColor="#022B41"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="casual"
-        android:text="15°C"
+        android:text="@string/temp"
         android:textColor="#022B41"
         android:textSize="60sp"
         android:textStyle="bold"
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="casual"
-        android:text="Min: 00:00°C"
+        android:text="@string/min_temp"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="Max: 00:00°C"
+        android:text="@string/max_temp"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
         android:fontFamily="casual"
-        android:text="Today"
+        android:text="@string/today"
         android:textColor="#022B41"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -117,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="casual"
-        android:text="Sunny"
+        android:text="@string/forecast"
         android:textColor="#022B41"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -136,7 +136,7 @@
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sunny" />
+        app:srcCompat="@drawable/sunny"/>
 
     <TextView
         android:id="@+id/txtCity"
@@ -144,7 +144,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:fontFamily="casual"
-        android:text="Çanakkale"
+        android:text="@string/city"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -212,7 +212,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="10%"
+                    android:text="@string/humidity_percent"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -222,7 +222,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="Humidity"
+                    android:text="@string/humidity"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -249,7 +249,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="5.5 km/h"
+                    android:text="@string/wind_speed"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -260,7 +260,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="Wind Speed"
+                    android:text="@string/windy"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -287,7 +287,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="50%"
+                    android:text="@string/rain_percent"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -298,7 +298,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="Conditions"
+                    android:text="@string/conditions"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -325,7 +325,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="08:00"
+                    android:text="@string/sunrise_hour"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -336,7 +336,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="Sunrise"
+                    android:text="@string/sunrise"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -363,7 +363,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="18:00"
+                    android:text="@string/sunset_hour"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -374,7 +374,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="Sunset"
+                    android:text="@string/sunset"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -401,7 +401,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="2 m"
+                    android:text="@string/altitude_percent"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -412,7 +412,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="Altitude"
+                    android:text="@string/altitude"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />

@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="372dp"
         android:fontFamily="casual"
-        android:text="@string/day"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +28,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="casual"
-        android:text="@string/date"
         android:textColor="#022B41"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -59,7 +57,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="casual"
-        android:text="@string/temp"
         android:textColor="#022B41"
         android:textSize="60sp"
         android:textStyle="bold"
@@ -74,7 +71,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="casual"
-        android:text="@string/min_temp"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +84,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="@string/max_temp"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -117,17 +112,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="casual"
-        android:text="@string/forecast"
         android:textColor="#022B41"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.381"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgSun" />
+        app:layout_constraintTop_toBottomOf="@+id/weatherIcon" />
 
     <ImageView
-        android:id="@+id/imgSun"
+        android:id="@+id/weatherIcon"
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_marginStart="8dp"
@@ -136,7 +130,7 @@
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sunny"/>
+        />
 
     <TextView
         android:id="@+id/txtCity"
@@ -144,7 +138,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:fontFamily="casual"
-        android:text="@string/city"
         android:textColor="#022B41"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -212,7 +205,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="@string/humidity_percent"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -249,7 +241,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="@string/wind_speed"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -280,17 +271,6 @@
                     android:layout_height="30dp"
                     android:layout_gravity="bottom|center"
                     app:srcCompat="@drawable/umbrella" />
-
-                <TextView
-                    android:id="@+id/txtRainPercent"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="casual"
-                    android:gravity="center"
-                    android:text="@string/rain_percent"
-                    android:textColor="#022B41"
-                    android:textSize="12sp"
-                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/txtConditions"
@@ -325,7 +305,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="@string/sunrise_hour"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -363,7 +342,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="@string/sunset_hour"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -401,7 +379,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
                     android:gravity="center"
-                    android:text="@string/altitude_percent"
                     android:textColor="#022B41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
